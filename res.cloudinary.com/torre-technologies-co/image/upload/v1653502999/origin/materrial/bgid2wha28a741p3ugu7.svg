@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  viewBox="0 0 60 60"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="background: #010101;"
+>
+  <style type="text/css">
+    .st1 {
+      fill: url(#linearGradient);
+    }
+  </style>
+  <g id="picture">
+    <polygon class="st1" points="0.0,0.0 60.0,0.0 60.0,60.0 0.0,60.0" />
+  </g>
+  <linearGradient id="linearGradient">
+    <stop offset="0%" stop-color="#383c43">
+      <animate attributeName="offset" values="-2; 1" dur="2" repeatCount="indefinite" />
+    </stop>
+    <stop offset="50%" stop-color="#53575e">
+      <animate attributeName="offset" values="-1.5; 1.5" dur="2" repeatCount="indefinite" />
+    </stop>
+    <stop offset="100%" stop-color="#383c43">
+      <animate attributeName="offset" values="-1; 2" dur="2" repeatCount="indefinite" />
+    </stop>
+  </linearGradient>
+</svg>
